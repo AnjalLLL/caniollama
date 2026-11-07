@@ -4,7 +4,7 @@ The open, vendor-neutral registry behind [caniollama](https://github.com/canioll
 a continuously-updated answer to "does this local Ollama model actually support tool calling?"
 
 Not owned by any one tool-builder's project -- that neutrality is the point. See
-[`TOOL_CALLING_REGISTRY_PROPOSAL.md`](../TOOL_CALLING_REGISTRY_PROPOSAL.md) for the full
+[`TOOL_CALLING_REGISTRY_PROPOSAL.md`](../docs/internal/TOOL_CALLING_REGISTRY_PROPOSAL.md) for the full
 rationale.
 
 ## Run locally

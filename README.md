@@ -2,13 +2,16 @@
 
 [![PyPI version](https://badge.fury.io/py/caniollama.svg)](https://pypi.org/project/caniollama/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/AnjalLLL/caniollama/actions/workflows/ci.yml/badge.svg)](https://github.com/AnjalLLL/caniollama/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/AnjalLLL/caniollama/actions/workflows/codeql.yml/badge.svg)](https://github.com/AnjalLLL/caniollama/actions/workflows/codeql.yml)
+[![Docs](https://img.shields.io/badge/docs-anjalll.github.io-blue)](https://anjalll.github.io/caniollama/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
 **Standardized compatibility checker for local Ollama model tool-calling support.**
 
 Does your local LLM actually support function calling? Run `caniollama check` to find out.
 
-🌐 Landing page source: [`landing/`](landing/)
+📖 **Docs:** https://anjalll.github.io/caniollama/ · 🌐 Landing page source: [`landing/`](landing/)
 
 ## What is this?
 
@@ -191,8 +194,10 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## Support
 
 - 📫 [Open an issue](https://github.com/AnjalLLL/caniollama/issues)
+- 💬 [Discussions](https://github.com/AnjalLLL/caniollama/discussions)
+- 🔒 [Security policy](SECURITY.md) · [Code of Conduct](CODE_OF_CONDUCT.md) · [Changelog](CHANGELOG.md)
 
 ---
 
-**Status:** Pre-1.0 (v0.1.0 ready for release)  
+**Status:** Pre-1.0 (latest: see PyPI badge above)  
 **Stars appreciated!** ⭐

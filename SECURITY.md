@@ -16,5 +16,5 @@ PyPI packages and container images are built in GitHub Actions with signed build
 
 ```bash
 gh attestation verify caniollama-*.whl --repo AnjalLLL/caniollama
-gh attestation verify oci://ghcr.io/anjalll/caniollama-registry:latest --repo AnjalLLL/caniollama
+gh attestation verify oci://ghcr.io/anjallll/caniollama-registry:latest --repo AnjalLLL/caniollama
 ```

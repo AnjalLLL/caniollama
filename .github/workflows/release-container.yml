@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: anjalll/caniollama-registry  # lowercase: required by GHCR attestations
+  IMAGE_NAME: anjallll/caniollama-registry  # lowercase: required by GHCR attestations
 
 jobs:
   build-and-push:

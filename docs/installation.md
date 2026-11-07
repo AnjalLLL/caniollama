@@ -71,16 +71,16 @@ Pull and run the pre-built container:
 
 ```bash
 # Pull from GitHub Container Registry
-docker pull ghcr.io/anjalll/caniollama-registry:latest
+docker pull ghcr.io/anjallll/caniollama-registry:latest
 
 # Run with in-memory storage (testing)
-docker run -p 8000:8000 ghcr.io/anjalll/caniollama-registry:latest
+docker run -p 8000:8000 ghcr.io/anjallll/caniollama-registry:latest
 
 # Run with persistent SQLite database
 docker run -p 8000:8000 \
   -e COMPAT_REGISTRY_STORAGE_BACKEND=db \
   -v $(pwd)/data:/app/data \
-  ghcr.io/anjalll/caniollama-registry:latest
+  ghcr.io/anjallll/caniollama-registry:latest
 ```
 
 ### Using Docker Compose
@@ -92,7 +92,7 @@ version: '3.8'
 
 services:
   registry:
-    image: ghcr.io/anjalll/caniollama-registry:latest
+    image: ghcr.io/anjallll/caniollama-registry:latest
     ports:
       - "8000:8000"
     environment:
@@ -223,11 +223,11 @@ uvx caniollama check  # automatically uses latest
 
 ```bash
 # Pull latest container
-docker pull ghcr.io/anjalll/caniollama-registry:latest
+docker pull ghcr.io/anjallll/caniollama-registry:latest
 docker compose restart
 
 # Or specific version
-docker pull ghcr.io/anjalll/caniollama-registry:0.1.0
+docker pull ghcr.io/anjallll/caniollama-registry:0.1.0
 ```
 
 ## Uninstalling
@@ -250,7 +250,7 @@ uv tool uninstall caniollama
 ```bash
 # Docker
 docker compose down
-docker rmi ghcr.io/anjalll/caniollama-registry:latest
+docker rmi ghcr.io/anjallll/caniollama-registry:latest
 
 # Remove data
 rm -rf data/

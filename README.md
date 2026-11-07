@@ -4,14 +4,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CI](https://github.com/AnjalLLL/caniollama/actions/workflows/ci.yml/badge.svg)](https://github.com/AnjalLLL/caniollama/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/AnjalLLL/caniollama/actions/workflows/codeql.yml/badge.svg)](https://github.com/AnjalLLL/caniollama/actions/workflows/codeql.yml)
-[![Docs](https://img.shields.io/badge/docs-anjalll.github.io-blue)](https://anjalll.github.io/caniollama/)
+[![Docs](https://img.shields.io/badge/docs-anjallll.github.io-blue)](https://anjallll.github.io/caniollama/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
 **Standardized compatibility checker for local Ollama model tool-calling support.**
 
 Does your local LLM actually support function calling? Run `caniollama check` to find out.
 
-📖 **Docs:** https://anjalll.github.io/caniollama/ · 🌐 Landing page source: [`landing/`](landing/)
+📖 **Docs:** https://anjallll.github.io/caniollama/ · 🌐 Landing page source: [`landing/`](landing/)
 
 ## What is this?
 
@@ -154,8 +154,8 @@ print(f"Pass rate: {data['pass_rate']:.0%}")
 Run your own instance with Docker:
 
 ```bash
-docker pull ghcr.io/anjalll/caniollama-registry:latest
-docker run -p 8000:8000 ghcr.io/anjalll/caniollama-registry:latest
+docker pull ghcr.io/anjallll/caniollama-registry:latest
+docker run -p 8000:8000 ghcr.io/anjallll/caniollama-registry:latest
 ```
 
 See [Installation Guide](docs/installation.md) and [API Integration Guide](docs/api-integration.md) for full documentation.

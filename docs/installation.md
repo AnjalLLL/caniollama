@@ -111,7 +111,7 @@ docker compose up -d
 
 ### Cloud Deployment
 
-See [compat-registry/DEPLOYMENT.md](../compat-registry/DEPLOYMENT.md) for:
+See [the deployment guide](registry/deployment.md) for:
 - Railway
 - Render
 - Fly.io
@@ -258,7 +258,7 @@ rm -rf data/
 
 ## Next Steps
 
-- 📖 [CLI Usage Guide](../compat-check/README.md)
+- 📖 [CLI Usage Guide](https://github.com/AnjalLLL/caniollama/blob/main/compat-check/README.md)
 - 🔌 [API Integration Guide](api-integration.md)
-- 🚀 [Deployment Guide](../compat-registry/DEPLOYMENT.md)
+- 🚀 [Deployment Guide](registry/deployment.md)
 - 🔒 [Privacy Policy](privacy.md)

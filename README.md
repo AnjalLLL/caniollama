@@ -60,7 +60,7 @@ caniollama check qwen2.5-coder:7b
 caniollama check --submit
 ```
 
-**Privacy:** Only metadata is submitted (model name, Ollama version, pass/fail outcomes). Never prompts or model outputs. See [docs/privacy.md](compat-check/docs/privacy.md).
+**Privacy:** Only metadata is submitted (model name, Ollama version, pass/fail outcomes). Never prompts or model outputs. See [docs/privacy.md](docs/privacy.md).
 
 ## Why?
 
@@ -87,10 +87,10 @@ This monorepo contains:
 - 📖 [CLI Usage Guide](compat-check/README.md) - Command-line tool documentation
 - 🔌 [API Integration Guide](docs/api-integration.md) - For tool builders
 - 🌍 [Cross-Platform Support](docs/cross-platform-support.md) - Platform-specific setup
-- 🔒 [Privacy Policy](compat-check/docs/privacy.md) - Data collection transparency
+- 🔒 [Privacy Policy](docs/privacy.md) - Data collection transparency
 
 ### Deployment
-- 🚀 [Registry Deployment Guide](compat-registry/DEPLOYMENT.md) - Self-hosting options
+- 🚀 [Registry Deployment Guide](docs/registry/deployment.md) - Self-hosting options
 - 🐳 [Docker Setup](docs/installation.md#registry-backend-self-hosted) - Container deployment
 
 ### For Developers

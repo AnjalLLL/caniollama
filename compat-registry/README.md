@@ -19,7 +19,7 @@ Then visit `http://localhost:8000/docs` for the interactive OpenAPI UI.
 ## API surface
 
 - `POST /submissions` -- open, unauthenticated, rate-limited. Body must match
-  [`docs/data-format.md`](docs/data-format.md).
+  [`docs/data-format.md`](https://anjalll.github.io/caniollama/registry/data-format/).
 - `GET /models` -- list of all tested models with report counts.
 - `GET /models/{model_name}` -- per-quantization / per-Ollama-version / per-case
   pass-rate breakdown for one model.
